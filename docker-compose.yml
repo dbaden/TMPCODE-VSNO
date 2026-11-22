@@ -1,0 +1,18 @@
+name: vsno
+
+services:
+  lab:
+    image: dbaden/vsnolab:latest
+    hostname: vsno
+    ports:
+      - "8080:8080"
+    environment:
+      PASSWORD: ${PASSWORD:-password}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:?}
+    volumes:
+      - user-data:/home/debian
+      - lab-data:/lab
+
+volumes:
+  user-data:
+  lab-data:
