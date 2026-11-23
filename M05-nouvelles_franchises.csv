@@ -1,0 +1,6 @@
+franchise_id,first_name,last_name,city,country,e_mail,phone_number
+501,Camille,Durand,Paris,France,camille.durand@example.com,+33 1 23 45 67 89
+502,Lucas,Martin,Lyon,France,lucas.martin@example.com,+33 4 12 34 56 78
+ABC,Léa,Bernard,Nantes,France,lea.bernard@example.com,+33 2 98 76 54 32
+504,Hugo,Petit,Lille,France
+505,"Emma","Roux","Bordeaux",France,emma.roux@example.com,+33 5 11 22 33 44
